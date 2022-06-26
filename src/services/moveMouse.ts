@@ -1,15 +1,15 @@
 import robot from 'robotjs';
 
-const moveMouseUp = (x, y, width) => {
+const moveMouseUp = (x:number, y:number, width:number) => {
     robot.moveMouse(x , y - width);
 }
-const moveMouseDown = (x, y, width) => {
+const moveMouseDown = (x:number, y:number, width:number) => {
     robot.moveMouse(x, y + width);
 }
-const moveMouseLeft = (x, y, width) => {
+const moveMouseLeft = (x:number, y:number, width:number) => {
     robot.moveMouse(x - width, y);
 }
-const moveMouseRight = (x, y, width) => {
+const moveMouseRight = (x:number, y:number, width:number) => {
     robot.moveMouse(x + width, y);
 }
 

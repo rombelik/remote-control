@@ -1,11 +1,11 @@
 import robot from "robotjs";
-import {drawCircle} from './drawCircle.js';
-import {drawRectangle} from "./drawRectangle.js";
-import {drawSquare} from "./drawSquare.js";
-import {moveMouseUp, moveMouseDown, moveMouseLeft, moveMouseRight} from "./moveMouse.js"
+import {drawCircle} from './drawCircle';
+import {drawRectangle} from "./drawRectangle";
+import {drawSquare} from "./drawSquare";
+import {moveMouseUp, moveMouseDown, moveMouseLeft, moveMouseRight} from "./moveMouse"
+import {RawData} from "ws";
 
-
-const handler = (data) => {
+const handler = (data:RawData):{ x: number; y: number; } => {
     const [command, width, length] = data.toString().split(' ');
     const { x, y } = robot.getMousePos();
     switch(command) {

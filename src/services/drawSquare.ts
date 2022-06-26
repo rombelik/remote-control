@@ -1,6 +1,6 @@
 import robot from 'robotjs';
 
-const drawSquare = (x, y, width) => {
+const drawSquare = (x:number, y:number, width:number) => {
     robot.mouseToggle("down", "left");
     robot.moveMouseSmooth(x + width, y);
     robot.moveMouseSmooth(x + width, y + width);

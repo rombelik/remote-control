@@ -355,6 +355,16 @@
     "v8_use_siphash": 1,
     "want_separate_host_toolset": 0,
     "nodedir": "/home/antares/.cache/node-gyp/16.15.1",
-    "standalone_static_library": 1
+    "standalone_static_library": 1,
+    "user_agent": "npm/8.11.0 node/v16.15.1 linux x64 workspaces/false",
+    "userconfig": "/home/antares/.npmrc",
+    "local_prefix": "/home/antares/work/rs/rsnode/task-4/remote-control",
+    "metrics_registry": "https://registry.npmjs.org/",
+    "prefix": "/home/antares/.nvm/versions/node/v16.15.1",
+    "cache": "/home/antares/.npm",
+    "node_gyp": "/home/antares/.nvm/versions/node/v16.15.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "globalconfig": "/home/antares/.nvm/versions/node/v16.15.1/etc/npmrc",
+    "init_module": "/home/antares/.npm-init.js",
+    "global_prefix": "/home/antares/.nvm/versions/node/v16.15.1"
   }
 }

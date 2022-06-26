@@ -1,6 +1,6 @@
 import robot from 'robotjs';
 
-const drawCircle = (x, y, radius) => {
+const drawCircle = (x:number, y:number, radius:number) => {
     robot.mouseToggle("down", "left");
     for (let i = 0; i <= Math.PI * 2; i += 0.01) {
         const a = x + (radius * Math.cos(i));

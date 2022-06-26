@@ -1,6 +1,6 @@
 import robot from 'robotjs';
 
-const drawRectangle = (x, y, width, length) => {
+const drawRectangle = (x:number, y:number, width:number, length:number) => {
     robot.mouseToggle("down", "left");
     robot.moveMouseSmooth(x + length , y);
     robot.moveMouseSmooth(x + length , y + width);
